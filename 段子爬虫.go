@@ -186,6 +186,6 @@ func main(){
 	fmt.Println("请输入终止页(>=起始页):")
 	fmt.Scan(&end)
 
-	//工作函数
+	//工作函数，这个地方其实可以把url也传进来的
 	DoWork(start, end)
 }
